@@ -22,6 +22,8 @@ group :test do
   gem "capybara", "1.1.2"
   gem "factory_girl_rails", "4.1.0"
   gem "rspec-rails", "2.11.0"
+  gem "fuubar", "1.1.0"
+  gem "rb-inotify", "0.8.8"
   gem "simplecov", "0.6.4"
   gem "spork", "0.9.2"
   gem "guard-rspec", "2.1.0"
