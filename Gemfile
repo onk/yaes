@@ -14,7 +14,7 @@ gem "jquery-rails", "2.1.3"
 # gem "acts_as_archive", "0.4.1"
 # gem "jpmobile", "3.0.5"
 # gem "kaminari", "0.14.1"
-# gem "rails3_acts_as_paranoid", "0.2.4"
+gem "rails3_acts_as_paranoid", "0.2.4"
 # gem "resque", "1.23.0"
 # gem "uuidtools", "2.1.3"
 
