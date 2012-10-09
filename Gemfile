@@ -16,6 +16,7 @@ gem "devise", "2.1.2"
 # gem "jpmobile", "3.0.5"
 # gem "kaminari", "0.14.1"
 gem "rails3_acts_as_paranoid", "0.2.4"
+gem "rails_admin", "0.1.1"
 # gem "resque", "1.23.0"
 # gem "uuidtools", "2.1.3"
 
