@@ -1,4 +1,6 @@
 Yaes::Application.routes.draw do
+  devise_for :admin_users
+
   get "users/home"
 
   # The priority is based upon order of creation:
