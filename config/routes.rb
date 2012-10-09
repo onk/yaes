@@ -1,4 +1,6 @@
 Yaes::Application.routes.draw do
+  get "users/home"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
