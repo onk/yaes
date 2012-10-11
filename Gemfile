@@ -10,7 +10,7 @@ group :assets do
 end
 gem "jquery-rails", "2.1.3"
 
-# gem "activerecord-import", "0.2.11"
+gem "activerecord-import", "0.2.11"
 # gem "acts_as_archive", "0.4.1"
 gem "devise", "2.1.2"
 # gem "jpmobile", "3.0.5"
