@@ -16,6 +16,7 @@ describe AbstractAppController do
     it { assigns["current_container_user"].should == @user }
     it { controller.current_container_user.should == @user }
     it { controller.current_user.should == @user }
+    it { session[:current_container_user_id].should == @user.container_user_id }
   end
 end
 
