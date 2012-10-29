@@ -1,0 +1,11 @@
+<h2>運営情報</h2>
+<section id="information">
+  <%= paginate(@information) %>
+  <ul>
+    <% @information.each do |topic| %>
+      <li><%= link_to("#{I18n.l(topic.published_at, format: "%-m/%-d")} #{topic.title}", topic_url(topic)) %></li>
+    <% end %>
+  </ul>
+  <%= paginate(@information) %>
+</section>
+
